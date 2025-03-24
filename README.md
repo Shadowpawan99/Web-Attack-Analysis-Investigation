@@ -1,50 +1,56 @@
-# Web-Attack-Analysis-Investigation
-📖 About This Repository
+# 🌐 Web-Attack-Analysis-Investigation  
+This repository contains case studies and detailed investigations of web-based attacks such as SQL Injection, Cross-Site Scripting (XSS), and other web security threats.  
+
+
+## 📖 About This Repository 
 This project includes:
+-🌐 **Web Application Attacks** (SQL Injection, XSS, CSRF, SSRF)
+-🕵️ **Log Analysis & Threat Hunting** (Apache, Nginx, SIEM logs)
+-🔥 **Exploits & Zero-Day Analysis** (Log4Shell, Spring4Shell)
+-🚨 **Incident Response & Mitigation Strategies**
+
+Each case includes: 
+✅ **Event Logs & HTTP Headers**
+✅ **Attack Analysis & Detection Techniques**
+✅ **Indicators of Compromise (IoCs)**
+✅ **Mitigation & Prevention Steps**
+
+---
+
+## 📂 Case Studies  
+### 📌 Case 1: Phishing Email with Malicious Attachment  
+- **Event ID:** `45`
+- **Subject:** `"Invoice"`
+- **Sender:** `accounting@cmail.carleton.ca`
+- **Findings:** The email contained a **malicious attachment**.
+
+📄 **[Read Full Report]()** 
+
+---
+
+## 🏆 About Me  
+Cybersecurity Analyst passionate about **threat detection, incident response, and digital forensics**.  
+🔗 **[LinkedIn Profile](WWW: https://www.linkedin.com/in/pawan pawar 72786b205/ )**  
+
+---
+
+## 🛡️ Tools Used  
+🔹 **VirusTotal** – URL & File Reputation  
+🔹 **Wireshark** – Network Packet Analysis  
+🔹 **Hybrid Analysis** – Malware Sandboxing  
+🔹 **Splunk/Kibana** – Log Analysis  
+
+---
+
+📌 **Want to connect?** Reach me on **[LinkedIn](WWW: https://www.linkedin.com/in/pawan pawar 72786b205/ )**.  
+
+---
+
+## 📌 Back to Main Page  
+[🔙 Home](../README.md) 
 
 
-🌐 Web Application Attacks (SQL Injection, XSS, CSRF, SSRF)
-🕵️ Log Analysis & Threat Hunting (Apache, Nginx, SIEM logs)
-🔥 Exploits & Zero-Day Analysis (Log4Shell, Spring4Shell)
-🚨 Incident Response & Mitigation Strategies
 
 
-Each case includes: ✅ Event Logs & HTTP Headers
-✅ Attack Analysis & Detection Techniques
-✅ Indicators of Compromise (IoCs)
-✅ Mitigation & Prevention Steps
 
-
-📂 Case Studies
-📌 Case 1: SQL Injection Attack - Database Dumping
-Event ID: 101
-
-Attack Type: SQL Injection (SQLi) via Login Form
-Source IP: 192.168.1.100
-Target URL: https://example.com/login
-Findings: The attacker used boolean-based SQL injection to dump credentials.
-📄 Read Full Report
-
-
-📌 Case 2: Cross-Site Scripting (XSS) - Data Theft
-Event ID: 102
-Attack Type: Stored XSS in User Profile Page
-Source: attacker@malicious.com
-Target: https://example.com/profile
-Findings: The attacker injected malicious JavaScript to steal session cookies.
-📄 Read Full Report
-
-
-📌 Case 3: Log4Shell Exploit - Remote Code Execution (RCE)
-Event ID: 103
-Attack Type: Log4j CVE-2021-44228 RCE
-Source IP: 203.0.113.45
-Target Server: webserver.example.com
-Findings: The attacker exploited Log4Shell vulnerability to execute remote commands.
-📄 Read Full Report
-
-
-🏆 About Me
-Cybersecurity Analyst with a passion for Web Application Security, Threat Detection, and Incident Response.
-🔗 LinkedIn Profile
 

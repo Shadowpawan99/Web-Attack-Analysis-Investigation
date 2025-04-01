@@ -42,63 +42,63 @@ Each case includes:
 - **Requested URL:** "https://172.16.17.15/get_user_info/"
   
 
-📄 **[Read Full Report]()** 
+📄 **[Read Full Report](https://drive.google.com/file/d/14GQSz7uaz8-Kr3Rk1f_9op9o7H4b7oFe/view?usp=drivesdk)** 
 
 
 ### 📌 Case 3:SQL Injection Attempt Detected
 - **Event ID:** '166'
 - **Rule Triggered:** 'SOC166 - SQL Injection Attempt Detected'
-- **Event Time:** 'March 02, 2022, 02:35 AM'
-- **Affected Host:** 'DatabaseServer01'
-- **Source IP:** '185.220.101.45'
-- **Destination IP:** '172.16.17.20'
+- **Event Time:** 'Feb 26, 2022, 06:56 PM'
+- **Affected Host:** 'WebServer1002'
+- **Source IP:** '112.85.42.13'
+- **Destination IP:** '172.16.17.17'
 - **HTTP Method:** 'GET'
-- **Requested URL:** 'https://172.16.17.20/login?user=admin' OR 1=1--&'
+- **Requested URL:** 'https://172.16.17.17/search/?q=<$script>javascript:$alert(1)<$/script>'
 
 
-📄 **[Read Full Report]()** 
+📄 **[Read Full Report](https://drive.google.com/file/d/14K1_tgGGlQyKdrik_06G47EQOE5QwdOW/view?usp=drivesdk)** 
 
 
-### 📌 Case 4:XSS Attack Attempt Detected
-- **Event ID:** '165'
-- **Rule Triggered:** 'SOC165 - Cross-Site Scripting (XSS) Attempt'
-- **Event Time:** 'March 05, 2022, 08:45 PM'
-- **Affected Host:** 'CustomerPortal01'
-- **Source IP:** '192.241.213.52'
-- **Destination IP:** '172.16.18.30'
+### 📌 Case 4:Possible SQL Injection Payload Detected
+- **Event ID:** '115'
+- **Rule Triggered:** 'SOC165 - Possible SQL Injection Payload Detected'
+- **Event Time:** 'Feb 25, 2022, 11:34 AM'
+- **Affected Host:** 'Webserver1001'
+- **Source IP:** '167.99.169.17'
+- **Destination IP:** '172.16.169.17'
 - **HTTP Method:** 'GET'
-- **Requested URL:** 'https://172.16.18.30/comments?input=<script>alert('XSS')</script>'
+- **Requested URL:** 'https://172.16.17.18./search/?q=%22%20OR%201%20%3D%201%20%--%20-'
 
 
-📄 **[Read Full Report]()** 
+📄 **[Read Full Report](https://drive.google.com/file/d/14MOzAXeJMxZ8JxdsOUzlwbOxtqeoal15/view?usp=drivesdk)** 
 
 
-### 📌 Case 5:Remote Code Execution (RCE) Attempt
-- **Event ID:** '168'
-- **Rule Triggered:** 'SOC168 - Remote Code Execution Attempt'
-- **Event Time:** 'March 07, 2022, 06:20 PM'
-- **Affected Host:** 'ApplicationServer03'
-- **Source IP:** '45.76.23.110'
-- **Destination IP:** '172.16.19.50'
+### 📌 Case 5:Whoami Command Detected in Request Body
+- **Event ID:** '118'
+- **Rule Triggered:** 'SOC168 - Whoami Command Detected in Request Body'
+- **Event Time:** 'Feb 28, 2022, 04:12 AM'
+- **Affected Host:** 'Webserver1004'
+- **Source IP:** '61.177.172.87'
+- **Destination IP:** '172.16.17.16'
 - **HTTP Method:** 'POST'
-- **Requested URL:** 'https://172.16.19.50/upload.php'
+- **Requested URL:** 'https://172.16.17.16/video/'
 
 
-📄 **[Read Full Report]()**
+📄 **[Read Full Report](https://drive.google.com/file/d/14LA5Z-fMj75L6uNXWWwSzC0exOlwh_qa/view?usp=drivesdk)**
 
 
-### 📌 Case 6:Directory Traversal Attack Attempt
-- **Event ID:** '167'
-- **Rule Triggered:** 'SOC167 - Directory Traversal Attack'
-- **Event Time:** 'March 09, 2022, 01:15 AM'
-- **Affected Host:** 'FileServer05'
-- **Source IP:** '103.120.112.21'
-- **Destination IP:** '172.16.21.40'
+### 📌 Case 6:LS Command Detected in Requested URL investigation
+- **Event ID:** '117'
+- **Rule Triggered:** 'SOC167 - LS Command Detected in Requested URL investigation '
+- **Event Time:** 'Feb 27, 2022, 12:36 AM'
+- **Affected Host:** 'EliotPRD'
+- **Source IP:** '172.16.17.46'
+- **Destination IP:** '188.114.96.15'
 - **HTTP Method:** 'GET'
-- **Requested URL:** 'https://172.16.21.40/download?file=../../../../etc/shadow'
+- **Requested URL:** 'https://letsdefend.io/blog/?=skills'
 
 
-📄 **[Read Full Report]()**
+📄 **[Read Full Report](https://drive.google.com/file/d/14FoTaZS0kk6N7DjwBdBLMo1ZF651HQPh/view?usp=drivesdk)**
 
 
 ---
@@ -113,7 +113,8 @@ Cybersecurity Analyst passionate about **threat detection, incident response, an
 🔹 **VirusTotal** – URL & File Reputation  
 🔹 **Wireshark** – Network Packet Analysis  
 🔹 **Hybrid Analysis** – Malware Sandboxing  
-🔹 **Splunk/Kibana** – Log Analysis  
+🔹 **Splunk/Kibana** – Log Analysis 
+🔹 **AbuseIPDB** - IP reputation 
 
 ---
 
